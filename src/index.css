@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url("/fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'RobotoBold';
+    src: url("/fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'RobotoLight';
+    src: url("/fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: 'RobotoMedium';
+    src: url("/fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url("/fonts/Roboto-Regular.ttf");
+}
+
+.sans-regular {
+    font-family: 'OpenSans', 'sans-serif';
+}
+
+.roboto-regular {
+    font-family: 'Robotoregular', 'sans-serif';
+}
+
+.roboto-medium  {
+    font-family: 'RobotoMedium', 'sans-serif';
+}
+
+.roboto-light  {
+    font-family: 'RobotoLight', 'sans-serif';
+}
+
+.roboto-bold {
+    font-family: 'RobotoBold', 'sans-serif';
+}
+
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
