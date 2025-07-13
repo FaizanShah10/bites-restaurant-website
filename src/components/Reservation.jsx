@@ -18,7 +18,6 @@ const Reservation = () => {
       trigger: "#reservation",
       start: "top 60%",
       toggleActions: "play none none reverse",
-      markers: true
     }
   });
 
